@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="inputs">
+            <h1 class="result">Result</h1>
+            <select id="selectOp">
+                <option value=".">please select operator</option>
+                <option value="plus">Sum+</option>
+                <option value="min">Sub-</option>
+                <option value="dev">Div/</option>
+                <option value="multi">Mul*</option>
+                <option value="pow">Pow**</option>
+                <option value="module">Mod%</option>
+                
+            </select>
+            <input type="number" class="num1" placeholder="Number 1" />
+            <input type="number" class="num2" placeholder="Number 2" />
+        </div>
+        <div class="submitBtn">
+            <button id="btn">Submit</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
